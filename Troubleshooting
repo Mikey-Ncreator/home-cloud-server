@@ -1,0 +1,5 @@
+
+Issue	Solution
+externally-managed-environment	Use python3 -m venv venv
+Can't access from browser	sudo ufw allow 5000
+Port 5000 in use	Change port in app.py
