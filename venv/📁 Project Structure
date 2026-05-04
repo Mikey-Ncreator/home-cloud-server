@@ -1,0 +1,5 @@
+home-cloud-server/
+├── app.py              # Main Flask application
+├── users.db            # SQLite database
+├── files/              # User file storage
+└── venv/               # Python virtual environment
