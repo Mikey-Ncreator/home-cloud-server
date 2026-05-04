@@ -63,3 +63,12 @@ python app.py
 #Access at: http://192.168.1.100:5000
 
 #Default login: admin / admin123
+
+
+#Default login: admin / admin123
+🔧 Keep Server Running After Logout (tmux)
+sudo apt install tmux -y
+tmux new -s cloud
+# Inside tmux: cd ~/cloud_app && source venv/bin/activate && python app.py
+# Detach: Ctrl+B, then D
+# Reattach: tmux attach -t cloud
